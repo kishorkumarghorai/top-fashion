@@ -28,6 +28,7 @@ public class LoginServlet extends HttpServlet {
 			String password = req.getParameter("password");
 
 			if ("admin@gmail.com".equals(email) && "admin".equals(password)) {
+				// User Object created
 				User us = new User();
 				us.setName("Admin");
 				session.setAttribute("userobj", us);
