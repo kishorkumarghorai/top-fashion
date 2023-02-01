@@ -25,7 +25,7 @@ public class ItemsDeleteServlet extends HttpServlet {
 			HttpSession session = req.getSession();
 
 			if (f) {
-				session.setAttribute("succMsg", "Book Delete Successfully..");
+				session.setAttribute("succMsg", "Items Delete Successfully..");
 				resp.sendRedirect("admin/all_books.jsp");
 			} else {
 				session.setAttribute("failedMsg", "Something wrong on server");
