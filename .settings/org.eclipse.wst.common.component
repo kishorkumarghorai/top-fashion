@@ -16,7 +16,7 @@
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
                         
         
-        <property name="java-output-path" value="/Ebook-App/target/classes"/>
+        <property name="java-output-path" value="/TopFashion/target/classes"/>
         <property name="context-root" value="TopFashion"/>
                     
     
